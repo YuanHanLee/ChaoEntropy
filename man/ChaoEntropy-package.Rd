@@ -13,7 +13,7 @@ Package: \tab \pkg{ChaoEntropy}\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2013-10-20\cr
-License: \tab GPL-3\cr
+License: \tab GPL-2\cr
 URL: \tab \url{http://chao.stat.nthu.edu.tw/blog/}
 }
 functions : \kbd{ChaoEntropy}, \kbd{Count2Abun}, \kbd{Count2Inci}, \kbd{Martix2Inci}
