@@ -15,7 +15,7 @@ Start R(studio) and copy-and-paste the commands below:
 
     #install.packages('devtools')
     library(devtools)
-    install_github('ChaoEntropy','JohnsonHsieh')
+    install_github('ChaoEntropy','YuanHanLee')
     library(ChaoEntropy)
 
 ### License
