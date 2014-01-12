@@ -14,9 +14,9 @@ The purpose of this R package ChaoEntropy is mainly to provide a new Shannon ent
 Start R(studio) and copy-and-paste the commands below:
 
     #install.packages('devtools')
-    library(devtools)
+    require(devtools)
     install_github('ChaoEntropy','YuanHanLee')
-    library(ChaoEntropy)
+    require(ChaoEntropy)
 
 ### License
 The ChaoEntropy package is licensed under the GPLv2. See the files listed below for additional details.
