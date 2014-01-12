@@ -1,5 +1,6 @@
 GrassEstFun <-
 function(dat) { 
+  dat <- round(dat)
   n <- sum(dat)
   p.hat <- dat/n
   a = 0

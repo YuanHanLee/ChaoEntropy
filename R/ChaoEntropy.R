@@ -4,6 +4,7 @@ function(data, datatype = c("abundance", "incidence"),
                                    "Jackknife", "Zhang", "Observed"), 
                         se = TRUE, nboot = 200, conf = 0.95) {
   if (is.matrix(data) == TRUE || is.data.frame(data) == TRUE) {
+    data <- as.matrix(data)
     if (ncol(data) != 1 & nrow(data) != 1)
       stop("Error: The data format is wrong.")
     if (ncol(data) == 1) {
