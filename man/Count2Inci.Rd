@@ -13,7 +13,7 @@ Count2Inci(count.data, t)
   \item{count.data}{
   input species incidence counts data: a numerical matrix or a data frame of two
 columns. The first column is the frequency j=1, 2...; and the second column is incidence counts (Qj). \cr\cr
-  Example: there are 39 singletons, 18 doubletons and so on in Ant_data.count:
+  Example: there are 39 singletons, 18 doubletons and so on in Ant:
     \tabular{rlllll}{
       [1,]  \tab 1  \tab 39 \cr
       [2,]  \tab 2  \tab 18 \cr
@@ -26,7 +26,7 @@ columns. The first column is the frequency j=1, 2...; and the second column is i
   }
   \item{t}{
   the total number of sampling units. \cr
-  e.g. See \code{\link[ChaoEntropy]{Ant_data}}: \code{t = 62} 
+  e.g. See \code{\link[ChaoEntropy]{Ant}}: \code{t = 62} 
   }
 }
 \value{
@@ -41,12 +41,12 @@ Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 }
 \examples{
 # load the incidence counts data
-data(Ant_data.count)
+data(Ant_count)
 t <- 62
 
 
 # Transform the data format
-Count2Inci(Ant_data.count, t)
-ChaoEntropy(data=Count2Inci(Ant_data.count, t), datatype="incidence", method="all",
+Count2Inci(Ant_count, t)
+ChaoEntropy(data=Count2Inci(Ant_count, t), datatype="incidence", method="all",
             se=TRUE, nboot=200, conf=0.95)
 }

@@ -1,5 +1,5 @@
-\name{Ant_data.count}
-\alias{Ant_data.count}
+\name{Ant_count}
+\alias{Ant_count}
 \docType{data}
 \title{
 Ant data with incidence counts
@@ -7,7 +7,7 @@ Ant data with incidence counts
 \description{
   Species \dQuote{incidence counts} for ant data provided by Longino et al. (2002). The ant data which used malaise traps method is collected in a tropical rain forest of Costa Rica. In the ant data set presented 455 species occurrences are distributed among 62 samples with 103 species observed. 
 }
-\usage{data(Ant_data.count)}
+\usage{data(Ant_count)}
 \format{
   a numerical matrix or a data frame of two columns. The first column is the frequency j=1, 2...; and the second column is incidence counts (Qj). \cr\cr
   The ant data is 
@@ -26,6 +26,6 @@ Ant data with incidence counts
 Longino, J.T., Coddington, J. & Colwell, R.K. (2002) The ant fauna of a tropical rain forest: estimating species richness three different ways. \emph{Ecology}, \bold{83}, 689-702.
 }
 \examples{
-data(Ant_data.count)
+data(Ant_count)
 }
 \keyword{datasets}

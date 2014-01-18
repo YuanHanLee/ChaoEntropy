@@ -11,7 +11,7 @@ Matrix2Inci(mat.data)
 }
 \arguments{
   \item{mat.data}{
-  a numerical matrix or a data frame, the presence/absence of each species is recorded in the matrix. If the species is presence, it is record 1. On the contrary, it is record 0. See \code{\link[ChaoEntropy]{Seed_data}}
+  a numerical matrix or a data frame, the presence/absence of each species is recorded in the matrix. If the species is presence, it is record 1. On the contrary, it is record 0. See \code{\link[ChaoEntropy]{Seed}}
   }
 }
 \value{
@@ -26,10 +26,10 @@ Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 }
 \examples{
 # load the prensence/absence data
-data(Seed_data)
+data(Seed)
 
 # Transform the data format
-Matrix2Inci(Seed_data)
-ChaoEntropy(data=Matrix2Inci(Seed_data), datatype="incidence", method="all",
+Matrix2Inci(Seed)
+ChaoEntropy(data=Matrix2Inci(Seed), datatype="incidence", method="all",
             se=TRUE, nboot=200, conf=0.95)
 }

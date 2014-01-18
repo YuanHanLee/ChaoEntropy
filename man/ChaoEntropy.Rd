@@ -80,16 +80,16 @@ Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 
 \examples{
 # load the individual-base (abundance) data
-data(Spider_data)
+data(Spider)
 
 # Estimation of Shannon entropy
-ChaoEntropy(Spider_data, datatype="abundance", method="all", se=TRUE, nboot=200, conf=0.95)
+ChaoEntropy(Spider, datatype="abundance", method="all", se=TRUE, nboot=200, conf=0.95)
 
 # load the sample-base (incidence) data
-data(Ant_data)
+data(Ant)
 
 # Estimation of Shannon entropy
-ChaoEntropy(Ant_data, datatype="incidence", method="all", se=TRUE, nboot=200, conf=0.95)
+ChaoEntropy(Ant, datatype="incidence", method="all", se=TRUE, nboot=200, conf=0.95)
 }
 \keyword{entropy}
 \keyword{Diversity}

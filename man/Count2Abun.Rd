@@ -13,7 +13,7 @@ Count2Abun(count.data)
   \item{count.data}{
   input species frequency counts data: a numerical matrix or a data frame of two
 columns. The first column is the frequency j=1, 2...; and the second column is frequency counts (fj). \cr\cr
-  Example: there are 59 singletons, 9 doubletons and so on in Insects_data:
+  Example: there are 59 singletons, 9 doubletons and so on in Insects:
     \tabular{rlllll}{
       [1,]  \tab 1  \tab 59 \cr
       [2,]  \tab 2  \tab 9 \cr
@@ -37,10 +37,10 @@ Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 }
 \examples{
 # load the frequency counts data
-data(Insects_data)
+data(Insects)
 
 # Transform the data format
-Count2Abun(Insects_data)
-ChaoEntropy(data=Count2Abun(Insects_data), datatype="abundance", method="all",
+Count2Abun(Insects)
+ChaoEntropy(data=Count2Abun(Insects), datatype="abundance", method="all",
             se=TRUE, nboot=200, conf=0.95)
 }

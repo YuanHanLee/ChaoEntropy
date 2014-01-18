@@ -1,5 +1,5 @@
-\name{Insects_data}
-\alias{Insects_data}
+\name{Insects}
+\alias{Insects}
 \docType{data}
 \title{
 Frequency Counts for Insects Data : Day-Time
@@ -7,7 +7,7 @@ Frequency Counts for Insects Data : Day-Time
 \description{
 To illustrate our method, we selected the data sets from Janzen (1973a, b) when he collected tropical foliage insects. The following table gives the frequencies for beetles collected respectively in day-time from the site referred to as "Osa primary-hill, dry season, 1967" in Janzen's paper (1973a).
 }
-\usage{data(Insects_data)}
+\usage{data(Insects)}
 \format{
   a numerical matrix or a data frame of two columns.
   \tabular{rlllll}{
@@ -22,6 +22,6 @@ To illustrate our method, we selected the data sets from Janzen (1973a, b) when 
     }
 }
 \examples{
-data(Insects_data)
+data(Insects)
 }
 \keyword{datasets}
