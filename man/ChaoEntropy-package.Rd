@@ -22,5 +22,8 @@ functions : \kbd{ChaoEntropy}, \kbd{Count2Abun}, \kbd{Count2Inci}, \kbd{Martix2I
 Y.T. Wang ; Y.H. Lee ; K.S. Tseng ; Anne Chao \cr
 Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 }
+\seealso{
+   \code{\link[ChaoEntropy]{ChaoEntropy}}
+}
 \keyword{entropy}
 \keyword{Diversity}
