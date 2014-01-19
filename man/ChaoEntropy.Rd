@@ -56,7 +56,7 @@ ChaoEntropy(data, datatype = c("abundance", "incidence"), method = c("all", "Cha
 }
 
 \value{
-\kbd{ChaoEntropy} returns a table of various entropy estimators, their standard error and 95 \% confidence interval which the \code{method} you choose.
+\kbd{ChaoEntropy} returns a table of various entropy estimators, their standard error and \code{100*conf} \% confidence interval which the \code{method} you choose.
 }
 \references{
 Chao, A., Wang, Y.T. & Jost, L. (2013) Entropy and the species accumulation curve: a novel entropy estimator via discovery rates of new species. To appear in Methods in Ecology and Evolution. \cr\cr
