@@ -8,6 +8,6 @@ Maintainer: Anne Chao <chao@stat.nthu.edu.tw>
 Description: The purpose of this R package ChaoEntropy is mainly to provide a
     new Shannon entropy estimator proposed by Chao et al. (2013) for both	
     individual-based (abundance) data and sample-based (incidence) data.
-License: GPL-2
+License: GPL (>= 2)
 URL: http://chao.stat.nthu.edu.tw/blog/
 LazyLoad: yes
