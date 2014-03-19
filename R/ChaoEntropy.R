@@ -42,9 +42,11 @@ function(data, datatype = c("abundance", "incidence"),
           "\n")
       cat("         ALL estimator are equal to 0,and the standard error will meaningless.", 
           "\n\n")
-      out <- data.frame(Estimator=rep(0,6))
-      rownames(out) <- c("Chao_entropy (2013)", "Chao_Shen (2003)", "Grassberger (2003)",
-                         "Zahl (1977) Jackknife", "Zhang (2012) Hz*", "Observed entropy")
+      out <- data.frame(rep(0, 6), rep(0, 6), rep(0, 6), rep(0, 6))
+      colnames(out) <- c('Estimator', 'Bootstrap s.e.', "95 % Lower", '95 % Upper')
+      rownames(out) <- c("Chao_entropy (2013)", "Chao_Shen (2003)", 
+                         "Grassberger (2003)", "Zahl (1977) Jackknife", 
+                         "Zhang (2012) Hz*", "Observed entropy")
     } else {
       out <- ChaoEntropy.Ind(data, method, nboot, conf, se)
     }
