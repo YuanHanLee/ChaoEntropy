@@ -1,8 +1,8 @@
 ChaoEntropy
 ===========
 
-- Author: Y. T. Wang ; Y. H. Lee ; K. S. Tseng ; Anne Chao
-- Contributor: Y. H. Lee [coo20819@hotmail.com]
+- Author: Anne Chao ; Y. H. Lee ; K. S. Tseng ; Y. T. Wang 
+- Contributor: Y. H. Lee coo20819@hotmail.com
 - URL: http://chao.stat.nthu.edu.tw/blog/
 
 The purpose of this R package ChaoEntropy is mainly to provide a new Shannon entropy estimator proposed by Chao et al. (2013) for both individual-based (abundance) data and sample-based (incidence) data.
@@ -13,10 +13,12 @@ The purpose of this R package ChaoEntropy is mainly to provide a new Shannon ent
 
 Start R(studio) and copy-and-paste the commands below:
 
-    #install.packages('devtools')
-    require(devtools)
-    install_github('ChaoEntropy','YuanHanLee')
-    require(ChaoEntropy)
+```coffee
+# install.packages('devtools')
+require(devtools)
+install_github('ChaoEntropy','YuanHanLee')
+require(ChaoEntropy)
+```
 
 ### License
 The ChaoEntropy package is licensed under the GPLv2. See the files listed below for additional details.
