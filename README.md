@@ -3,7 +3,9 @@ ChaoEntropy
 
 - Author: Anne Chao ; Y. H. Lee ; K. S. Tseng ; Y. T. Wang 
 - Contributor: Y. H. Lee coo20819@hotmail.com
+- Maintainer: Anne Chao chao@stat.nthu.edu.tw
 - URL: http://chao.stat.nthu.edu.tw/blog/
+
 
 The purpose of this R package ChaoEntropy is mainly to provide a new Shannon entropy estimator proposed by Chao et al. (2013) for both individual-based (abundance) data and sample-based (incidence) data.
 
