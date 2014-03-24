@@ -19,7 +19,7 @@ URL: \tab \url{http://chao.stat.nthu.edu.tw/blog/}
 functions : \kbd{ChaoEntropy}, \kbd{Count2Abun}, \kbd{Count2Inci}, \kbd{Martix2Inci}
 }
 \author{
-Y.T. Wang ; Y.H. Lee ; K.S. Tseng ; Anne Chao \cr
+Anne Chao ; Y. H. Lee ; K. S. Tseng ; Y. T. Wang \cr
 Maintainer : Anne Chao \email{chao@stat.nthu.edu.tw}
 }
 \seealso{
