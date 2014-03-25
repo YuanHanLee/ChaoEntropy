@@ -16,8 +16,7 @@ Start R(studio) and copy-and-paste the commands below:
 
 ```coffee
 # install.packages('devtools')
-require(devtools)
-install_github('ChaoEntropy','YuanHanLee')
+devtools::install_github('R-ChaoEntropy','YuanHanLee')
 require(ChaoEntropy)
 ```
 
