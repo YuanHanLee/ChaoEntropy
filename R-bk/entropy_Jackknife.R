@@ -1,16 +1,11 @@
-entropy_Observed <-
+entropy_Jackknife <-
 function(data, B = 200, conf = 0.95) {
-  if (sum(data > 0) == 1) {
-    est <- 0
-    se <- 0
-  } else {
-    est <- ObservedEstFun(data)
-    se <- BootstrapFun(data, B, ObservedEstFun)
-  }
+  est <- ZahlJackEstFun(data)
+  se <- BootstrapFun(data, B, ZahlJackEstFun)
   z <- qnorm(1 - (1 - conf)/2)
   CI <- c(max(est - z * se, 0), est + z * se)
   out <- matrix(c(est, se, CI), nrow = 1)
-  rownames(out) <- c("Observed entropy")
+  rownames(out) <- c("Zahl (1977) Jackknife")
   colnames(out) <- c("Estimator", "Bootstrap s.e.",
                      paste(conf*100, "% Lower"), paste(conf*100, "% Upper"))
   return(out)
